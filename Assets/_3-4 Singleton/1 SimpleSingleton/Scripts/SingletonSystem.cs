@@ -10,8 +10,8 @@ public class SingletonSystem : MonoBehaviour
 {
     /// <summary>インスタンスを取得するためのパブリック変数</summary>
     //public static SingletonSystem Instance = default;
-    //static SingletonSystem Instance = default;
-    public static SingletonSystem Instance { get => Instance; set => Instance = value; }
+    public static SingletonSystem Instance = default;
+    //public static SingletonSystem Instance1 { get => Instance; set => Instance = value; }
     /// <summary>一画面内に許される弾の数</summary>
     [SerializeField] int _bulletsInScene = 1;
     /// <summary>スコアを表示する Text</summary>
