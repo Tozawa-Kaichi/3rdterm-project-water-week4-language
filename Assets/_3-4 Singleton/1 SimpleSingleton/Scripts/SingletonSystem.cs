@@ -9,7 +9,6 @@ using UnityEngine.SceneManagement;
 public class SingletonSystem : MonoBehaviour
 {
     /// <summary>インスタンスを取得するためのパブリック変数</summary>
-    //public static SingletonSystem Instance = default;
     public static SingletonSystem Instance = default;
     //public static SingletonSystem Instance1 { get => Instance; set => Instance = value; }
     /// <summary>一画面内に許される弾の数</summary>
